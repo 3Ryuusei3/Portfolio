@@ -1,0 +1,12 @@
+body {
+	background-color: var(--bg);
+}
+
+h1 {
+	font-size: var(--fs-xxxxl);
+	font-family: "Unbounded", cursive;
+	color: var(--text-primary);
+}
+
+.headerWrapper {
+}

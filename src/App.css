@@ -1,0 +1,41 @@
+@import "./styles/reset.css";
+@import "./styles/general.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap");
+
+html {
+	/* Font family */
+	font-family: "Poppins", sans-serif;
+
+	/* Colors */
+	--bg: #151122;
+	--text-primary: #f5f5f5;
+	--text-secondary: #8881a0;
+	--text-terciary: #4a4463;
+	--color-primary: #3c00ff;
+	--color-accent: rgb(105, 59, 255);
+
+	/* Font size */
+	--fs-xxxxl: calc(62px + (72 - 62) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xxxl: calc(34px + (50 - 34) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xxl: calc(26px + (38 - 26) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xl: calc(20px + (30 - 20) * ((100vw - 400px) / (1600 - 400)));
+	--fs-lg: calc(18px + (24 - 18) * ((100vw - 400px) / (1600 - 400)));
+	--fs-md: calc(16px + (20 - 16) * ((100vw - 400px) / (1600 - 400)));
+	--fs-st: calc(15px + (18 - 15) * ((100vw - 400px) / (1600 - 400)));
+	--fs-sm: calc(14px + (16 - 14) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xs: calc(12px + (14 - 12) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xxs: calc(10px + (12 - 10) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xxxs: calc(9px + (10.5 - 9) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xxxxs: calc(7px + (8 - 7) * ((100vw - 400px) / (1600 - 400)));
+
+	/* Font weight */
+	--fw-xxxxl: 900;
+	--fw-xxxl: 800;
+	--fw-xxl: 700;
+	--fw-xl: 600;
+	--fw-lg: 500;
+	--fw-md: 400;
+	--fw-sm: 300;
+	--fw-xs: 200;
+}
