@@ -13,10 +13,11 @@ html {
 	--text-secondary: #8881a0;
 	--text-terciary: #4a4463;
 	--color-primary: #3c00ff;
-	--color-accent: rgb(105, 59, 255);
+	--border-color: #342c51;
+	--color-accent: #693bff;
 
 	/* Font size */
-	--fs-xxxxl: calc(62px + (72 - 62) * ((100vw - 400px) / (1600 - 400)));
+	--fs-xxxxl: calc(72px + (102 - 72) * ((100vw - 400px) / (1600 - 400)));
 	--fs-xxxl: calc(34px + (50 - 34) * ((100vw - 400px) / (1600 - 400)));
 	--fs-xxl: calc(26px + (38 - 26) * ((100vw - 400px) / (1600 - 400)));
 	--fs-xl: calc(20px + (30 - 20) * ((100vw - 400px) / (1600 - 400)));

@@ -8,5 +8,42 @@ h1 {
 	color: var(--text-primary);
 }
 
-.headerWrapper {
+.container {
+	outline: 0.1px solid var(--border-color);
+}
+
+.wrapper {
+	max-width: 1250px;
+	margin-inline: auto;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.full {
+	grid-template-columns: 1fr;
+}
+
+.inverse {
+	grid-template-columns: 1fr 2fr;
+}
+
+.tricol {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.wrapper > * {
+	outline: 0.1px solid var(--border-color);
+	padding: 20px;
+}
+
+.outsider {
+	min-height: 60px;
+}
+
+.name {
+	padding: 80px 40px 20px;
+}
+
+.hero {
+	min-height: 600px;
 }
